@@ -1,0 +1,228 @@
+small{
+    color: rgb(255, 255, 255);
+    font-size: 1.0rem;
+  }
+  .shipcard{
+    border-radius: 10px;
+    border: none;
+    background-color: #21232c;
+    width: 100px;
+    height: 30px;
+    transition: 0.5s;
+  }
+  .shipcard:hover{
+    background-color: rgb(49, 155, 58);
+    transform: scale(1.3);
+  }
+  .card.card-cover.h-100.overflow-hidden.text-bg-dark.rounded-4.shadow-lg{
+    background-size: cover;
+    background-position: center;
+    
+  }
+  p{
+    font-size: 1.3rem;
+    font-family: Kanit;
+  }
+  nav div a {
+    border: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  nav div a i{
+    width: 55px;
+    padding: 30px;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  nav div a i:hover{
+    transform: scale(1.5);
+  }
+  .nav-link-disble{
+    color: #979797;
+  }
+  .logo-menu{
+    font-size: 1.8rem;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    transition: .5s;
+    width: 55px;
+    height: auto;
+    text-align: center;
+    border: 1PX solid rgb(255, 255, 255);
+    
+  }
+  .logo-menu:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 18, 18);
+    box-shadow:0px 15px 10px rgba(5, 5, 5, 0.1);
+    
+  }
+  .widbtn{
+    width: 20px;
+  }
+  .p-4.p-md-5.mb-4.rounded.text-body-emphasis.bg-body-secondary{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/intel-core-i9-intel-7680x4320-9782.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5%;
+    width: 90%;
+    margin-top: 1;
+    height: 50vh;
+
+    
+  }
+  .logo-hight{
+    font-size: 1.5rem;
+    border-radius: 15%;
+    color: rgb(255, 252, 252);
+    background-color: rgb(0, 0, 0);
+    transition: .5s;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    border: 1px solid rgb(223, 255, 133);
+  }
+  .logo-hight:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: #21232c;
+    border:none;
+  }
+  .p-4.p-md-5.mb-4.rounded.text-body-emphasis.bg-body-secondars{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/fg4ZAwQSZo6otqhzzs4Bxd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5%;
+    width: 90%;
+    margin-top: 1;
+    height: 50vh;
+
+    
+  }
+  .fontnn{
+    color: aliceblue;
+    font-family: Kanit;
+    width: 130%;
+    font-size: 3.5rem;
+    
+    
+  }
+  .fontna{
+    color: rgb(255, 255, 255);
+    font-family: Kanit;
+    width: 87%;
+    font-size: 0.8rem;
+    
+  }
+  .price{
+    width: 160px;
+    background-color: rgb(18, 19, 19);
+    height: 10%;
+    margin-top: 0.5%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #68f066;
+    color: black;
+    font-family: Kanit;
+    
+  }
+  .me-auto{
+   align-items: right;
+  }
+  .buttonmnn{
+    width: 25%;
+    height: 10vh;
+    border-radius: 40px;
+    border: none;
+    transition: .3s;
+    background-color: rgb(183, 243, 243);
+  }
+  .buttonmnu{
+    width: 25%;
+    height: 10vh;
+    border-radius: 40px;
+    border: none;
+    transition: .3s;
+    background-color: rgb(255, 200, 190);
+  }
+  .buttonmnn:hover{
+    transform: scale(1.1);
+  }
+  .buttonmnu:hover{
+    transform: scale(1.1);
+  }
+  .buttonott{
+    display: flex;
+    width: 47%;
+    height: 9vh;
+    border-radius: 100%;
+    margin-left: 1%;
+    margin-top: 0;
+    background-image: url(https://logodownload.org/wp-content/uploads/2014/04/intel-logo-3-1.png);
+    background-size: cover;
+    background-position: center;
+    
+   
+  }
+  .buttononn{
+    display: flex;
+    width: 47%;
+    height: 9vh;
+    border-radius: 100%;
+    margin-left: 53%;
+    margin-top: 0;
+    background-image: url(https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/amd_ryzen_badge_circle_1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+  }
+  @media screen and (max-width: 380px){
+    .buttonmnn{
+      width: 50%;
+      height: 10vh;
+      border-radius: 50px;
+      border: none;
+      transition: .3s;
+      background-color: rgb(183, 243, 243);
+    }
+    .buttonmnu{
+      width: 50%;
+      height: 10vh;
+      border-radius: 50px;
+      border: none;
+      transition: .3s;
+      background-color: rgb(255, 200, 190);
+    }
+    .buttonott{
+      display: flex;
+      width: 50%;
+      height: 9vh;
+      border-radius: 100%;
+      margin-left: 1%;
+      margin-top: 0;
+      background-image: url(https://logodownload.org/wp-content/uploads/2014/04/intel-logo-3-1.png);
+      background-size: cover;
+      background-position: center;
+      
+     
+    }
+    .buttononn{
+      display: flex;
+      width: 50%;
+      height: 9vh;
+      border-radius: 100%;
+      margin-left: 49%;
+      margin-top: 0;
+      background-image: url(https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/amd_ryzen_badge_circle_1024x576.jpg);
+      background-size: cover;
+      background-position: center;
+     
+     
+    }
+  }
+ 
