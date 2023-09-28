@@ -22,20 +22,23 @@
   .carousel-item {
     height: 38rem;
   }
-  .bd-placeholder-img{
+    .bd-placeholder-img{
     background-image: url(https://computertechnicians.b-cdn.net/wp-content/uploads/2022/05/gaming-computer-setup.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .bd-placeholder-img1{
     background-image: url(https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=500%2Cq=85%2Cwidth=1000/wp-content/uploads/keyboard-size-differences-explained-1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .bd-placeholder-img2{
     background-image: url(https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/m1bottomhero1-1632832070875.jpeg?v=1632832081);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   
   
